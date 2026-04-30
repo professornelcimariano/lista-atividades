@@ -1,0 +1,129 @@
+.atv1 { text-align: center; color: red; }
+.banner {
+    height: 400px; 
+    width: 100%; 
+    background-image: url('./images/carro.png ');
+    background-size: cover;
+    text-align: center;
+}
+.banner h1 {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: #000 1px 1px 2px;
+}
+.banner h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: #000 1px 1px 2px;
+}
+  
+.banner .btn-1 {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.banner .btn-2 {
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;    
+}
+
+.container-bl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;    
+}
+
+.container-bl .box {
+    width: 98%;
+    padding: 1%;
+    box-shadow: #721e1e 1px 1px 2px;
+}
+
+.container-bl .box img {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none; 
+    background-color: crimson;
+    margin: 20px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+
+footer {
+    display: flex;
+    background-color: aqua;
+}
+
+.column3 {
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 576px) {
+    body {
+        background-color: lime;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: rgb(144, 144, 238);
+    }
+    .container-bl .box {
+        width: 30%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: rgb(200, 255, 0);
+    }
+}
+
+@media (min-width: 1200px) {
+   body {
+        background-color: rgb(255, 0, 225);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(255, 0, 0);
+    }
+}
